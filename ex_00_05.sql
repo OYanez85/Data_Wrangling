@@ -12,7 +12,7 @@ LEFT OUTER JOIN dsv1069.orders
 ON orders.user_id = users.id
 GROUP BY users.id;
 
-'''
+''' Another way of doing it:
 SELECT
   users.id AS user_id,
   MIN(orders.paid_at) AS min_paid_at,

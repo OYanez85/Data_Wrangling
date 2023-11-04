@@ -3,7 +3,7 @@
 table
 Starter Code: (none)'''
 
-'''The follwing statement is correct as well:
+'''The following statement is correct as well:
 SELECT *
 FROM dsv1069.users
 JOIN dsv1069.orders ON dsv1069.users.id = dsv1069.orders.user_id'''
